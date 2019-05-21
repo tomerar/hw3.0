@@ -6,11 +6,14 @@
 				});
 			  
                 $.ajax({
-                    url: "http://api.icndb.com/jokes/random?firstName="+localStorage.getItem('firstName')+"&lastName="+localStorage.getItem('lastName')+"",
+                    url: "http://api.icndb.com/jokes/random?",
                     type: "get",
                     success: function (data) {
+                        var nameStr =data.value.joke;
+                       nameStr= nameStr.replace("Chuck", localStorage.getItem("firstName"));
+                       nameStr= nameStr.replace("Norris", localStorage.getItem("lastName"));
                         $("#joke").append("<p class='joke_text'>" +
-                        data.value.joke +
+                        nameStr +
 							"</p>");
                     },
                     error: function (err) {
