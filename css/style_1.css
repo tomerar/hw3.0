@@ -1,0 +1,76 @@
+html{
+    background-color: rgb(202, 198, 198);
+}
+/*main page*/
+#main-body{
+   /* background-color:#948f8f;*/
+    min-width: 505px;
+}
+#main{
+   
+    height:650px!important;
+    background-image: url("../img/trivia.jpg")!important;
+    background-size: cover;
+  
+}
+#main-body div{
+    /*will edit*/
+}
+#top-main{
+    height: 100px;
+   /* background-color: rgb(103, 103, 197);*/
+    width: 100%!important;
+}
+/*main part of the web*/
+#center-main{
+    height: 200px;
+  /*  background-color: rgb(24, 114, 21);*/
+    width: 100%!important;
+    text-align: center;
+}
+#text-and-input p{
+    margin: auto;
+    width: 300px;
+    /*background-color: rgb(119, 66, 66)*/
+}
+#text-and-input p{
+    width: 300px;
+    /*background-color: rgb(119, 66, 66)*/
+}
+/*text titale*/
+#text-title{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#text-and-input #text-center{
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 5px ;
+    width: 240px;
+    background-color: rgb(108, 170, 170);
+}
+/*bottons*/
+#check-button{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#bottom-main{
+    height: 100px;
+    /*background-color: rgb(88, 63, 86);*/
+    width: 100%!important;
+}
+/*the box of the main part*/
+#box-main{
+background-color: rgb(116, 130, 148);
+    margin: 0 auto;
+    padding: 5px;
+    width: 500px;
+    box-shadow: 5px ;
+    border: 5px solid;
+}
+/*the bottom for errors*/
+#errors{
+    text-align: center;
+    font-size: 50px;
+}
